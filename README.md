@@ -7,7 +7,7 @@ Public Instance Of This Bot Can Be Found On Telegram As [@feritapibot](https://t
   <img src="https://telegra.ph/file/d693838d84eb7f0e947d2.jpg" alt="FeriChatBot">
 </p>
 
-## <p align="center">DEPLOY TO HEROKU</p>
+<p align="center">DEPLOY TO HEROKU</p>
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FeriEXP/FeriChatBot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
