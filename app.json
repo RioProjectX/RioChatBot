@@ -1,0 +1,36 @@
+{
+  "name": "FeriChatBot",
+  "description": "This is just a chat bot on Telegram made from the LunaChatBot source",
+  "keywords": [
+    "telegram",
+    "bot",
+    "chat"
+  ],
+  "repository": "https://github.com/FeriEXP/FeriChatBot",
+  "env": {
+    "bot_token": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "value": ""
+    },
+    "LANGUAGE": {
+      "description": "The language used by the bot",
+      "value": "id"
+    },
+    "api_id":{
+      "description": "your app id, take it from my.telegram.org",
+      "value": ""
+    },
+    "api_hash":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": ""
+    },
+    "ARQ_API_BASE_URL":{
+      "description": "Never change this stuffing",
+      "value": "https://thearq.tech"
+    },
+    "ARQ_API_KEY":{
+      "description": "Fill it with your arq token",
+      "value": ""
+    }
+  }
+}
