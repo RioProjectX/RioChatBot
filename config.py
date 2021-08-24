@@ -1,6 +1,6 @@
 from os import environ
 
-ENV = True # make it false for heruko
+ENV = False # make it false for heroku
 
 # List of supported languages >>
 # https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages
