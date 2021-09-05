@@ -15,11 +15,11 @@ if not ENV:
   BOT_USERNAME = ""
   KONTOL = ""
 else:
-  bot_token = str(environ.get("bot_token", None))
+  bot_token = str(environ.get("BOT_TOKEN", None))
   ARQ_API_KEY = str(environ.get("ARQ_API_KEY", None))
   LANGUAGE = str(environ.get("LANGUAGE", "id"))
-  api_id = int(environ.get("api_id", 6))
-  api_hash = str(environ.get("api_hash", "eb06d4abfb49dc3eeb1aeb98ae0f581e"))
-  ARQ_API_BASE_URL = str(environ.get("ARQ_API_BASE_URL", None))
+  api_id = int(environ.get("API_ID", 6))
+  api_hash = str(environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e"))
+  ARQ_API_BASE_URL = "https://thearq.tech"
   BOT_USERNAME = str(environ.get("BOT_USERNAME", "feritapibot"))
   KONTOL = str(environ.get("BOT_NAME", "Feri"))
