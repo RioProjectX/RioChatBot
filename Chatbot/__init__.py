@@ -68,11 +68,11 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "typing")
     response, _ = await gather(lunaQuery(query, user_id), sleep(2))
     if "Luna" in response:
-        responsee = response.replace("Luna", "Feri")
+        responsee = response.replace("Luna", "{KONTOL}")
     else:
         responsee = response
     if "Aco" in responsee:
-        responsess = responsee.replace("Aco", "feri")
+        responsess = responsee.replace("Aco", "{KONTOL}")
     else:
         responsess = responsee
     if "Who is feri?" in responsess:
