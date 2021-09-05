@@ -10,6 +10,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
+      "required": true,
       "value": ""
     },
     "LANGUAGE": {
@@ -18,22 +19,32 @@
     },
     "API_ID":{
       "description": "your app id, take it from my.telegram.org",
+      "required": true,
       "value": ""
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
+      "required": true,
       "value": ""
     },
     "BOT_USERNAME":{
       "description": "Your chat bot username",
+      "required": true,
       "value": ""
     },
     "BOT_NAME":{
       "description": "Name of your chat bot",
+      "required": true,
+      "value": ""
+    },
+    "MEDIA":{
+      "description": "Name of your chat bot",
+      "required": false,
       "value": ""
     },
     "ARQ_API_KEY":{
       "description": "Fill it with your arq token",
+      "required": true,
       "value": ""
     }
   }
