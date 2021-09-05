@@ -8,10 +8,15 @@ Public Instance Of This Bot Can Be Found On Telegram As [@feritapibot](https://t
 </p>
 
 
-## Deploy
+# DEPLOY TO HEROKU
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FeriEXP/FeriChatBot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
+
+
+# DEPLOY TO RAILWAY
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/FeriEXP/FeriChatBot) 
 
 
 ## Installation
