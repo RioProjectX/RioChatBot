@@ -83,7 +83,7 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "cancel")
 
 
-@luna.on_message(filters.command(["start", "start@feritapibot"]) & ~filters.edited)
+@luna.on_message(filters.command(["start", f"start@{BOT_USERNAME}"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
@@ -107,7 +107,7 @@ async def start(client: Client, message: Message):
     )
 
 
-@luna.on_message(filters.command(["ping", "ping@feritapibot"]) & ~filters.edited)
+@luna.on_message(filters.command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, m: Message):
     start = time()
     m_reply = await m.reply_text("Pinging...")
@@ -124,7 +124,7 @@ async def ping_pong(client: Client, m: Message):
 @luna.on_message(
     ~filters.private
     & filters.text
-    & ~filters.command(["start", "start@feritapibot"])
+    & ~filters.command(["start", f"start@{BOT_USERNAME}"])
     & ~filters.edited,
     group=69,
 )
@@ -148,7 +148,7 @@ async def chat(_, message):
 
 @luna.on_message(
     filters.private
-    & ~filters.command(["start", "start@feritapibot"])
+    & ~filters.command(["start", f"start@{BOT_USERNAME}"])
     & ~filters.edited
 )
 async def chatpm(_, message):
