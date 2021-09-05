@@ -8,7 +8,7 @@
   ],
   "repository": "https://github.com/FeriEXP/FeriChatBot",
   "env": {
-    "bot_token": {
+    "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
       "value": ""
     },
@@ -16,11 +16,11 @@
       "description": "The language used by the bot",
       "value": "id"
     },
-    "api_id":{
+    "API_ID":{
       "description": "your app id, take it from my.telegram.org",
       "value": ""
     },
-    "api_hash":{
+    "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
       "value": ""
     },
@@ -31,10 +31,6 @@
     "BOT_NAME":{
       "description": "Name of your chat bot",
       "value": ""
-    },
-    "ARQ_API_BASE_URL":{
-      "description": "Never change this stuffing",
-      "value": "https://thearq.tech"
     },
     "ARQ_API_KEY":{
       "description": "Fill it with your arq token",
