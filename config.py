@@ -8,12 +8,13 @@ ENV = True # make it false for heroku
 if not ENV:
   bot_token = ""
   ARQ_API_KEY = ""
-  LANGUAGE = ""
+  LANGUAGE = "id"
   api_id = ""
   api_hash = ""
   ARQ_API_BASE_URL = "https://thearq.tech"
-  BOT_USERNAME = ""
-  KONTOL = ""
+  BOT_USERNAME = "feritapibot"
+  KONTOL = "Feri"
+  MEMEK = "https://telegra.ph/file/a4da21f403a470fc71945.mp4"
 else:
   bot_token = str(environ.get("BOT_TOKEN", None))
   ARQ_API_KEY = str(environ.get("ARQ_API_KEY", None))
