@@ -26,7 +26,7 @@ Public Instance Of This Bot Can Be Found On Telegram As [@feritapibot](https://t
 3. `pip3 install -r requirements.txt` to install the requirements.
 4. `cp sample_config.py config.py`
 5. Edit `config.ini` with your own values.
-6. Run with `python3 -m Chatbot`
+6. Run with `python3 Feri.py`
 
 # Credit
 - Source code ~ [LunaChatBot](https://github.com/TheHamkerCat/LunaChatBot)
