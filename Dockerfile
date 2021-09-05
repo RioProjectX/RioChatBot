@@ -6,4 +6,4 @@ RUN pacman -Syy && \
 RUN pip3 install -U pip
 COPY . .
 RUN pip3 install -U -r requirements.txt
-CMD ["python3","-m Chatbot"]
+CMD ["python3","Feri.py"]
