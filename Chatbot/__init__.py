@@ -88,7 +88,7 @@ async def start(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    PM_IMG = "https://telegra.ph/file/c4f9ef20e3c1a211fa308.mp4"
+    PM_IMG = "{MEMEK}"
     kontol = await client.send_video(message.chat.id, PM_IMG)
     await kontol.edit(
         f"""I'm online!\n<b>Up since:</b> `{uptime}`""",
