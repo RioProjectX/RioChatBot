@@ -23,3 +23,4 @@ else:
   ARQ_API_BASE_URL = "https://thearq.tech"
   BOT_USERNAME = str(environ.get("BOT_USERNAME", "feritapibot"))
   KONTOL = str(environ.get("BOT_NAME", "Feri"))
+  MEMEK = str(environ.get("MEDIA", "https://telegra.ph/file/a4da21f403a470fc71945.mp4"))
