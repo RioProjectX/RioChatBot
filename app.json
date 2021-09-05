@@ -38,7 +38,7 @@
       "value": ""
     },
     "MEDIA":{
-      "description": "Name of your chat bot",
+      "description": "Video Create a start bot",
       "required": false,
       "value": ""
     },
