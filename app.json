@@ -24,6 +24,14 @@
       "description": "your api hash, take it from my.telegram.org",
       "value": ""
     },
+    "BOT_USERNAME":{
+      "description": "Your chat bot username",
+      "value": ""
+    },
+    "BOT_NAME":{
+      "description": "Name of your chat bot",
+      "value": ""
+    },
     "ARQ_API_BASE_URL":{
       "description": "Never change this stuffing",
       "value": "https://thearq.tech"
