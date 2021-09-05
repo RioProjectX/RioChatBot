@@ -16,7 +16,7 @@ Public Instance Of This Bot Can Be Found On Telegram As [@feritapibot](https://t
 
 # DEPLOY TO RAILWAY
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/FeriEXP/FeriChatBot) 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/FeriEXP/FeriChatBot&envs=BOT_TOKEN,LANGUAGE,API_ID,API_HASH,BOT_USERNAME,BOT_NAME,MEDIA,ARQ_API_KEY) 
 
 
 ## Installation
