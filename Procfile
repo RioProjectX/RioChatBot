@@ -1,1 +1,1 @@
-worker: python3 -m Chatbot
+worker: python3 Feri.py
