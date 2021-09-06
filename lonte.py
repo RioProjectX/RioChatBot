@@ -1,4 +1,4 @@
-from telethon import events
+from telethon import lonte
 from Feri import telethn
 
 
