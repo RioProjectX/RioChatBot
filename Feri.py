@@ -8,6 +8,7 @@ from aiohttp import ClientSession
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import (Client, filters, idle)
 from Python_ARQ import ARQ
+from telethon import TelegramClient
 from config import *
 
 
@@ -17,6 +18,10 @@ luna = Client(":memory:",
               api_id=api_id,
               api_hash=api_hash,
 )
+
+print("[INFO]: TELETHON CLIENT STARTING")
+telethn = TelegramClient("feri", api_id, api_hash)
+
 bot_id = int(bot_token.split(":")[0])
 print("[INFO]: INITIALIZING ...")
 arq = None
