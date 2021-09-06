@@ -146,7 +146,7 @@ async def chatpm(_, message):
     await type_and_send(message)
 
 
-@luna.on_message(command(["asupan", f"asupan@{BOT_USERNAME}"]))
+@luna.on_message(filters.command(["asupan", f"asupan@{BOT_USERNAME}"]))
 async def asupan(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
@@ -156,7 +156,7 @@ async def asupan(client, message):
         await message.reply_text("`404 asupan videos not found:v`")
 
 
-@luna.on_message(command(["wibu", f"wibu@{BOT_USERNAME}"]))
+@luna.on_message(filters.command(["wibu", f"wibu@{BOT_USERNAME}"]))
 async def wibu(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
@@ -166,7 +166,7 @@ async def wibu(client, message):
         await message.reply_text("`404 wibu not found:v`")
 
 
-@luna.on_message(command(["truth", f"truth@{BOT_USERNAME}"]))
+@luna.on_message(filters.command(["truth", f"truth@{BOT_USERNAME}"]))
 async def truth(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/truth").json()
@@ -176,7 +176,7 @@ async def truth(client, message):
         await message.reply_text("something went wrong...")
 
 
-@luna.on_message(command(["dare", f"dare@{BOT_USERNAME}"]))
+@luna.on_message(filters.command(["dare", f"dare@{BOT_USERNAME}"]))
 async def dare(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/dare").json()
@@ -186,7 +186,7 @@ async def dare(client, message):
         await message.reply_text("something went wrong...")
 
 
-@luna.on_message(command(["chika", f"chika@{BOT_USERNAME}"]))
+@luna.on_message(filters.command(["chika", f"chika@{BOT_USERNAME}"]))
 async def chika(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/chika").json()
