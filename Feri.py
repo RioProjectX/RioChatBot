@@ -85,13 +85,15 @@ async def type_and_send(message):
 
 @luna.on_message(filters.command(["start", f"start@{BOT_USERNAME}"]) & ~filters.edited)
 async def start(client: Client, message: Message):
+    start = time()
+    delta_ping = time() - start
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     PM_IMG = f"{MEMEK}"
-    kontol = await client.send_video(message.chat.id, PM_IMG)
-    await kontol.edit(
-        f"""I'm online!\n<b>Up since:</b> `{uptime}`""",
+    kontol = await client.send_video(message.chat.id, PM_IMG, 
+        caption=f"**Time Taken:** `{delta_ping * 1000:.3f} ms`\n"
+        f"**Uptime:** `{uptime}`",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
