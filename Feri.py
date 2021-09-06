@@ -13,7 +13,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import (Client, filters, idle)
 from Python_ARQ import ARQ
 from telethon import TelegramClient
-from lonte import register
+from events import register
 from config import *
 
 
