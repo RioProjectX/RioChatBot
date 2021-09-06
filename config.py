@@ -14,8 +14,14 @@ if not ENV:
   ARQ_API_BASE_URL = "https://thearq.tech"
   BOT_USERNAME = "feritapibot"
   KONTOL = "Feri"
+  HEROKU_API_KEY = ""
+  HEROKU_APP_NAME = ""
+  OWNER_ID = "1669508271"
   MEMEK = "https://telegra.ph/file/a4da21f403a470fc71945.mp4"
 else:
+  HEROKU_API_KEY = str(environ.get("HEROKU_API_KEY", None))
+  HEROKU_APP_NAME = str(environ.get("HEROKU_APP_NAME", None))
+  OWNER_ID = str(environ.get("OWNER_ID", "1669508271"))
   bot_token = str(environ.get("BOT_TOKEN", None))
   ARQ_API_KEY = str(environ.get("ARQ_API_KEY", None))
   LANGUAGE = str(environ.get("LANGUAGE", "id"))
