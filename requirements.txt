@@ -2,7 +2,3 @@ pyrogram
 python-arq
 TgCrypto
 requests
-telethon==1.23.0
-asyncio
-heroku3
-pynewtonmath
