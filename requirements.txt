@@ -2,3 +2,4 @@ pyrogram
 python-arq
 TgCrypto
 requests
+telethon==1.23.0
