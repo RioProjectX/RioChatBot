@@ -125,7 +125,7 @@ async def chat(_, message):
             return
     else:
         match = re.search(
-            "[.|\n]{0,}{KONTOL}[.|\n]{0,}",
+            f"[.|\n]{0,}{KONTOL}[.|\n]{0,}",
             message.text.strip(),
             flags=re.IGNORECASE,
         )
