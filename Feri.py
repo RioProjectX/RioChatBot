@@ -8,7 +8,7 @@ from aiohttp import ClientSession
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import (Client, filters, idle)
 from Python_ARQ import ARQ
-from config import *
+from config import bot_token, ARQ_API_KEY, LANGUAGE, api_id, api_hash, ARQ_API_BASE_URL, BOT_USERNAME, KONTOL, MEMEK
 
 
 print("[INFO]: INITIALIZING BOT CLIENT ...")
