@@ -1,7 +1,7 @@
-# [FeriChatBot](https://t.me/feritapibot)
+# [RioChatBot](https://t.me/riobotsupport)
 Just Another Telegram Ai Chat Bot Written In Python With Pyrogram.
 
-Public Instance Of This Bot Can Be Found On Telegram As [@feritapibot](https://t.me/feritapibot)
+Public Instance Of This Bot Can Be Found On Telegram As [riomanager](https://t.me/rio1robot)
 
 <p align="center">
   <img src="https://telegra.ph/file/d693838d84eb7f0e947d2.jpg" alt="FeriChatBot">
@@ -10,13 +10,13 @@ Public Instance Of This Bot Can Be Found On Telegram As [@feritapibot](https://t
 
 # DEPLOY TO HEROKU
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FeriEXP/FeriChatBot">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/rioProjectX/RioChatBot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 
 # DEPLOY TO RAILWAY
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/FeriEXP/FeriChatBot&envs=BOT_TOKEN,LANGUAGE,API_ID,API_HASH,BOT_USERNAME,BOT_NAME,MEDIA,ARQ_API_KEY) 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/RioProjectX/RioChatBot&envs=BOT_TOKEN,LANGUAGE,API_ID,API_HASH,BOT_USERNAME,BOT_NAME,MEDIA,ARQ_API_KEY) 
 
 
 ## Installation
