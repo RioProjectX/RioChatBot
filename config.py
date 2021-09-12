@@ -12,8 +12,8 @@ if not ENV:
   api_id = ""
   api_hash = ""
   ARQ_API_BASE_URL = "https://thearq.tech"
-  BOT_USERNAME = "feritapibot"
-  KONTOL = "Feri"
+  BOT_USERNAME = "rio1robot"
+  KONTOL = "Rio"
   MEMEK = "https://telegra.ph/file/a4da21f403a470fc71945.mp4"
 else:
   bot_token = str(environ.get("BOT_TOKEN", None))
