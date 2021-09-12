@@ -75,8 +75,8 @@ async def type_and_send(message):
         responsess = responsee.replace("Aco", f"{KONTOL}")
     else:
         responsess = responsee
-    if "Who is feri?" in responsess:
-        responsess2 = responsess.replace("Who is feri?", "Nani?👀")
+    if "Siapa rio?" in responsess:
+        responsess2 = responsess.replace("Siapa rio?", "duh cute beut?👀")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
