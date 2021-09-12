@@ -98,10 +98,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Source", url="https://github.com/FeriEXP/FeriChatBot"
+                        "Channel", url="https://t.me/riobotsupport"
                     ),
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/anossupport"
+                        "Group", url="https://t.me/siiniaja"
                     )
                 ]
             ]
@@ -153,7 +153,7 @@ async def asupan(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`404 asupan videos not found:v`")
+        await message.reply_text("`404 asupan videos not found`")
 
 
 @luna.on_message(filters.command(["wibu", f"wibu@{BOT_USERNAME}"]))
@@ -163,7 +163,7 @@ async def wibu(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`404 wibu not found:v`")
+        await message.reply_text("`404 wibu not found`")
 
 
 @luna.on_message(filters.command(["truth", f"truth@{BOT_USERNAME}"]))
