@@ -1,12 +1,12 @@
 {
-  "name": "FeriChatBot",
+  "name": "RioChatBot",
   "description": "This is just a chat bot on Telegram made from the LunaChatBot source",
   "keywords": [
     "telegram",
     "bot",
     "chat"
   ],
-  "repository": "https://github.com/FeriEXP/FeriChatBot",
+  "repository": "https://github.com/RioProjectX/RioChatBot",
   "env": {
     "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
