@@ -12,16 +12,16 @@ if not ENV:
   api_id = ""
   api_hash = ""
   ARQ_API_BASE_URL = "https://thearq.tech"
-  BOT_USERNAME = "rio1robot"
+  BOT_USERNAME = "jungkokchatbot"
   KONTOL = "Rio"
-  MEMEK = "https://telegra.ph/file/a4da21f403a470fc71945.mp4"
+  MEMEK = "https://telegra.ph/file/0a766bf53e048281392aa.jpg"
 else:
   bot_token = str(environ.get("BOT_TOKEN", None))
   ARQ_API_KEY = str(environ.get("ARQ_API_KEY", None))
   LANGUAGE = str(environ.get("LANGUAGE", "id"))
   api_id = int(environ.get("API_ID", 6))
-  api_hash = str(environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e"))
+  api_hash = str(environ.get("API_HASH", "cd350d5d129d8feb5bc35cf109baa284"))
   ARQ_API_BASE_URL = "https://thearq.tech"
-  BOT_USERNAME = str(environ.get("BOT_USERNAME", "feritapibot"))
-  KONTOL = str(environ.get("BOT_NAME", "Feri"))
-  MEMEK = str(environ.get("MEDIA", "https://telegra.ph/file/a4da21f403a470fc71945.mp4"))
+  BOT_USERNAME = str(environ.get("BOT_USERNAME", "jungkokchatbot"))
+  KONTOL = str(environ.get("BOT_NAME", "Jungkok"))
+  MEMEK = str(environ.get("MEDIA", "https://telegra.ph/file/0a766bf53e048281392aa.jpg"))
