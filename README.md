@@ -4,7 +4,7 @@ Just Another Telegram Ai Chat Bot Written In Python With Pyrogram.
 Public Instance Of This Bot Can Be Found On Telegram As [riomanager](https://t.me/rio1robot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/d693838d84eb7f0e947d2.jpg" alt="FeriChatBot">
+  <img src="https://telegra.ph/file/0a766bf53e048281392aa.jpg" alt="FeriChatBot">
 </p>
 
 
