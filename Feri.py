@@ -101,7 +101,7 @@ async def start(client: Client, message: Message):
                         "Channel", url="https://t.me/riobotsupport"
                     ),
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/siiniaja"
+                        "Group", url="https://t.me/RioGroupSupport"
                     )
                 ]
             ]
