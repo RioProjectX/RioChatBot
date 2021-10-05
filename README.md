@@ -21,12 +21,12 @@ Public Instance Of This Bot Can Be Found On Telegram As [riomanager](https://t.m
 
 ## Installation
 
-1. `git clone https://github.com/FeriEXP/FeriChatBot`
+1. `git clone https://github.com/rioprojectx/riochatbot`
 2. `cd FeriChatBot`
 3. `pip3 install -r requirements.txt` to install the requirements.
 4. `cp sample_config.py config.py`
 5. Edit `config.ini` with your own values.
-6. Run with `python3 Feri.py`
+6. Run with `python3 rio.py`
 
 # Credit
 - Source code ~ [LunaChatBot](https://github.com/TheHamkerCat/LunaChatBot)
