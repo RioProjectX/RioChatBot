@@ -1,10 +1,10 @@
 # [RioChatBot](https://t.me/riobotsupport)
 Just Another Telegram Ai Chat Bot Written In Python With Pyrogram.
 
-Public Instance Of This Bot Can Be Found On Telegram As [riomanager](https://t.me/rio1robot)
+Public Instance Of This Bot Can Be Found On Telegram As [Rio Robot](https://t.me/rio2robot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/0a766bf53e048281392aa.jpg" alt="FeriChatBot">
+  <img src="https://telegra.ph/file/0a766bf53e048281392aa.jpg" alt="RioChatBot">
 </p>
 
 
@@ -29,4 +29,4 @@ Public Instance Of This Bot Can Be Found On Telegram As [riomanager](https://t.m
 6. Run with `python3 rio.py`
 
 # Credit
-- Source code ~ [LunaChatBot](https://github.com/TheHamkerCat/LunaChatBot)
+- Luna
