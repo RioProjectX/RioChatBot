@@ -83,7 +83,7 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "cancel")
 
 
-@luna.on_message(filters.command(["start", f"start@{BOT_USERNAME}"]) & ~filters.edited)
+@luna.on_message(filters.command(["start", f"start@{BOT_USERNAME}"])
 async def start(client: Client, message: Message):
     start = time()
     delta_ping = time() - start
