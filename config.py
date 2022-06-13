@@ -12,7 +12,7 @@ if not ENV:
   api_id = ""
   api_hash = ""
   ARQ_API_BASE_URL = "https://thearq.tech"
-  BOT_USERNAME = "jungkokchatbot"
+  BOT_USERNAME = "Rio Chatbot"
   KONTOL = "Rio"
   MEMEK = "https://telegra.ph/file/0a766bf53e048281392aa.jpg"
 else:
@@ -23,5 +23,5 @@ else:
   api_hash = str(environ.get("API_HASH", "cd350d5d129d8feb5bc35cf109baa284"))
   ARQ_API_BASE_URL = "https://thearq.tech"
   BOT_USERNAME = str(environ.get("BOT_USERNAME", "jungkokchatbot"))
-  KONTOL = str(environ.get("BOT_NAME", "Jungkok"))
+  KONTOL = str(environ.get("BOT_NAME", "Rio"))
   MEMEK = str(environ.get("MEDIA", "https://telegra.ph/file/0a766bf53e048281392aa.jpg"))
