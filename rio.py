@@ -98,7 +98,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/riobotsupport"
+                        "Channel", url="https://t.me/rioprojects"
                     ),
                     InlineKeyboardButton(
                         "Group", url="https://t.me/RioGroupSupport"
